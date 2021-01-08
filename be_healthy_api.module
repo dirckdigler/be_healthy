@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains be_healthy_api.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function be_healthy_api_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the be_healthy_api module.
+    case 'help.page.be_healthy_api':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Client Rest to consume services') . '</p>';
+      return $output;
+
+    default:
+  }
+}

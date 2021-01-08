@@ -1,0 +1,8 @@
+
+# Endpoints entity menu items definition
+entity.endpoints_entity.collection:
+  title: 'Endpoints entity'
+  route_name: entity.endpoints_entity.collection
+  description: 'List Endpoints entity (bundles)'
+  parent: system.admin_structure
+  weight: 99

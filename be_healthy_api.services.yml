@@ -1,0 +1,6 @@
+services:
+  be_healthy_api.client:
+    class: Drupal\be_healthy_api\Service\BeHealthyApiClient
+    arguments:
+      - '@http_client'
+      - '@enroll_now.manage_session_data'

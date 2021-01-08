@@ -1,0 +1,5 @@
+entity.endpoints_entity.add_form:
+  route_name: entity.endpoints_entity.add_form
+  title: 'Add Endpoints entity'
+  appears_on:
+    - entity.endpoints_entity.collection

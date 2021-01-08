@@ -1,0 +1,11 @@
+
+be_healthy_api.admin_settings:
+  path: '/admin/config/be_healthy_api'
+  defaults:
+    _form: '\Drupal\be_healthy_api\Form\BeHealthyApiConfigurationForm'
+    _title: 'Be Healthy configuration Services'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+    

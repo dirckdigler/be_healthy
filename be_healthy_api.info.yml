@@ -1,0 +1,9 @@
+name: Be Healthy - Be Healthy API 
+description: Client Rest to consume services.
+package: Custom
+type: module
+configure: be_healthy_api.admin_settings
+core_version_requirement: ^8 || ^9
+dependencies:
+  - enroll_now
+  

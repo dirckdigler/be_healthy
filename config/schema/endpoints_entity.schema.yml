@@ -1,0 +1,20 @@
+be_healthy_api.endpoints_entity.*:
+  type: config_entity
+  label: 'Endpoints entity config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Service name'
+    endpoint:
+      type: string
+      label: Endpoint
+    method:
+      type: string
+      label: Method
+    timeout:
+      type: Integer
+      label: timeout
+
